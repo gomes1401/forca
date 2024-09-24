@@ -1,0 +1,36 @@
+const palavras = [
+    "bosch",
+    "morte",
+    "suspeito",
+    "evidência",
+    "losangeles",
+    "crime",
+    "detetive",
+    "corpo",
+    "motivo",
+    "testemunha",
+    "polícia",
+    "conflito",
+    "alíbi",
+    "pista",
+    "davidchu",
+
+];
+
+const dicas = [
+    "O sobrenome do detetive principal do livro",
+    "Tema central da investigação",
+    "Pessoa investigada pelo crime",
+    "Qualquer coisa coletada durante a investigação",
+    "Cidade onde se passa o livro",
+    "A infração cometida",
+    "Profissão do personagem principal",
+    "O que é encontrado na cena do crime",
+    "Aquilo que ocasionou o crime a ser cometido é chamado de",
+    "Pessoa que pode fornecer informação sobre o caso",
+    "Força de seurança envolvida na investigação",
+    "Desentendimentos ou problemas enfrentados durante a investigação",
+    "Prova de que alguém não estava no local do crime",
+    "Indício que ajuda na investigação",
+    "Parceiro e ajudante de Bosch",
+];

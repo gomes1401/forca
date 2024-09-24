@@ -1,0 +1,106 @@
+/* Reset básico para garantir uma aparência consistente */
+body, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definindo o estilo geral do corpo */
+body {
+  font-family: Arial, sans-serif;
+  color: #fff; /* Mudando a cor do texto para branco */
+  background-image: url('../imgs/misterio.jpg'); /* Imagem de fundo */
+  background-size: cover; /* Cobre toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Fixa a imagem ao rolar */
+  line-height: 1.6;
+  text-align: center; /* Centraliza o texto */
+}
+
+
+header .container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+  background: rgba(0, 0, 0, 0.7); /* Fundo preto semi-transparente */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  max-width: 800px; /* Limita a largura máxima para melhor leitura */
+}
+
+/* Estilo para as seções */
+section {
+  background: rgba(255, 255, 255, 0.15); /* Fundo quase invisível, mais escuro */
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para os títulos */
+h1 {
+  color: #dcdcdc; /* Cor clara para o título principal */
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #b0b0b0; /* Cor mais clara para os subtítulos */
+  border-bottom: 2px solid #dcdcdc; /* Linha clara */
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+a {
+  color: #dcdcdc; /* Cor clara para links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para o botão de jogar */
+.btn-play {
+  background: rgba(30, 60, 114, 0.9); /* Fundo escuro */
+  border: none;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-play:hover {
+  background: rgba(42, 82, 152, 0.9); /* Azul mais claro, escuro e mais opaco */
+  transform: scale(1.05); /* Aumenta o botão um pouco ao passar o mouse */
+}
+
+/* Estilo para o rodapé */
+footer {
+  background: rgba(0, 0, 0, 0.8); /* Preto mais transparente */
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+
+footer .container {
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
